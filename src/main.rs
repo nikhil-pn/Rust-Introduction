@@ -1,4 +1,13 @@
 fn main() {
+    let x: i32 = 4;
+    if x > 5 {
+        println!("x is greater than 5")
+    } else if x<2{
+        println!("x is less than 2")
+    }else{
+        println!("x")
+    }
+
     // //unsigned integer
     // let unsigned: u8 = 10;
 
@@ -31,12 +40,9 @@ fn main() {
     // println!(" {}", arr[0]);
     // println!(" {}", z);
 
-    another_function(8, 'n');
-
-    
-
+    // another_function(8, 'n');
 }
 
-fn another_function(z:i32, alphabet: char) {
-    println!("another function:{},alphabet:{}", z,alphabet);
-}
+// fn another_function(z:i32, alphabet: char) {
+//     println!("another function:{},alphabet:{}", z,alphabet);
+// }
